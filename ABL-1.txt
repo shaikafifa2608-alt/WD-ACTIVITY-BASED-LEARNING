@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Online Shop</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 15px;
+    }
+
+    header h1 {
+      display: inline;
+      margin-right: 30px;
+    }
+
+    nav {
+      display: inline;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+
+    .banner {
+      background-color: #6c63ff;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin: 15px;
+    }
+
+    .banner button {
+      background-color: white;
+      color: #6c63ff;
+      border: none;
+      padding: 10px 18px;
+    }
+
+    .categories {
+      text-align: center;
+      padding: 10px;
+    }
+
+    .categories a {
+      display: inline-block;
+      background-color: white;
+      color: #333;
+      text-decoration: none;
+      padding: 10px 15px;
+      margin: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .products {
+      text-align: center;
+      padding: 10px;
+    }
+
+    .product {
+      display: inline-block;
+      vertical-align: top;
+      width: 220px;
+      margin: 10px;
+      padding: 15px;
+      background-color: white;
+      border: 1px solid #ccc;
+    }
+
+    .product img {
+      width: 100%;
+      height: 140px;
+    }
+
+    .discount {
+      color: red;
+      font-weight: bold;
+    }
+
+    .rating {
+      color: orange;
+    }
+
+    .price {
+      color: green;
+      font-weight: bold;
+    }
+
+    .old-price {
+      color: gray;
+      text-decoration: line-through;
+    }
+
+    .product button {
+      background-color: #6c63ff;
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 100%;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    @media (max-width: 600px) {
+      header h1,
+      nav {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      .product {
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>MyShop</h1>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#categories">Categories</a>
+      <a href="#products">Products</a>
+    </nav>
+  </header>
+
+  <div class="banner">
+    <h2>Big Sale Today!</h2>
+    <p>Save up to 30% on selected products.</p>
+    <button>Shop Now</button>
+  </div>
+
+  <div class="categories" id="categories">
+    <h2>Shop by Category</h2>
+    <a href="#products">Electronics</a>
+    <a href="#products">Fashion</a>
+    <a href="#products">Accessories</a>
+  </div>
+
+  <div class="products" id="products">
+    <h2>Our Products</h2>
+
+    <div class="product">
+      <img src="https://placehold.co/300x180?text=Headphones" alt="Headphones">
+      <h3>Headphones</h3>
+      <p>Comfortable headphones with clear sound.</p>
+      
+      <p class="discount">25% OFF</p>
+      <p class="price">₹1,499 <span class="old-price">₹1,999</span></p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://placehold.co/300x180?text=Watch" alt="Smart watch">
+      <h3>Smart Watch</h3>
+      <p>A stylish watch for everyday use.</p>
+
+      <p class="discount">15% OFF</p>
+      <p class="price">₹2,499 <span class="old-price">₹2,999</span></p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://placehold.co/300x180?text=Backpack" alt="Backpack">
+      <h3>Backpack</h3>
+      <p>A useful bag for school and travel.</p>
+
+      <p class="discount">20% OFF</p>
+      <p class="price">₹999 <span class="old-price">₹1,249</span></p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="banner">
+    <h2>Free Delivery</h2>
+    <p>Free delivery on orders over ₹2,000!</p>
+  </div>
+
+  <footer>
+    <p>MyShop - Online Shopping Website</p>
+  </footer>
+
+</body>
+</html>

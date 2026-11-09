@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>College Fest 2026</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #263b80;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #182957;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+    }
+
+    .banner {
+      background-color: #f4a340;
+      color: white;
+      padding: 30px 15px;
+      text-align: center;
+    }
+
+    .banner h2 {
+      font-size: 32px;
+    }
+
+    .section {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .event-card {
+      display: inline-block;
+      vertical-align: top;
+      width: 230px;
+      margin: 10px;
+      padding: 15px;
+      background-color: white;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+
+    .event-card h3 {
+      color: #263b80;
+    }
+
+    .schedule {
+      width: 80%;
+      margin: 0 auto;
+      border-collapse: collapse;
+      background-color: white;
+    }
+
+    .schedule th,
+    .schedule td {
+      border: 1px solid #aaa;
+      padding: 10px;
+      text-align: left;
+    }
+
+    .schedule th {
+      background-color: #263b80;
+      color: white;
+    }
+
+    .rules {
+      width: 80%;
+      margin: 0 auto;
+      text-align: left;
+      line-height: 1.8;
+    }
+
+    form {
+      width: 80%;
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: white;
+      text-align: left;
+    }
+
+    input,
+    select {
+      width: 100%;
+      padding: 9px;
+      margin: 8px 0 15px;
+      box-sizing: border-box;
+    }
+
+    form button {
+      background-color: #263b80;
+      color: white;
+      border: none;
+      padding: 10px 18px;
+    }
+
+    footer {
+      background-color: #182957;
+      color: white;
+      padding: 12px;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: inline-block;
+        margin: 5px;
+      }
+
+      .event-card {
+        width: 80%;
+      }
+
+      .schedule {
+        width: 100%;
+      }
+
+      .rules,
+      form {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>INNOVISTA 2026</h1>
+    <p>Annual College Festival</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#events">Events</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#rules">Rules</a>
+    <a href="#register">Register</a>
+  </nav>
+
+  <div class="banner" id="home">
+    <h2>Three Days. One Big Celebration!</h2>
+    <p>Join us on 20, 21, and 22 February at ABC College.</p>
+    <p>Discover new ideas, show your talent, and have fun!</p>
+  </div>
+
+  <div class="section" id="events">
+    <h2>Technical Events</h2>
+
+    <div class="event-card">
+      <h3>Coding Challenge</h3>
+      <p>Solve programming problems and test your coding skills.</p>
+      <p><strong>Coordinator:</strong> Riya Sharma</p>
+    </div>
+
+    <div class="event-card">
+      <h3>Project Expo</h3>
+      <p>Present a student project and explain how it works.</p>
+      <p><strong>Coordinator:</strong> Arjun Patel</p>
+    </div>
+
+    <div class="event-card">
+      <h3>Robotics Workshop</h3>
+      <p>Learn the basics of building and controlling a robot.</p>
+      <p><strong>Coordinator:</strong> Neha Singh</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Cultural Competitions</h2>
+
+    <div class="event-card">
+      <h3>Dance Competition</h3>
+      <p>Perform a solo or group dance on stage.</p>
+      <p><strong>Coordinator:</strong> Kabir Das</p>
+    </div>
+
+    <div class="event-card">
+      <h3>Singing Competition</h3>
+      <p>Show your singing talent in front of the audience.</p>
+      <p><strong>Coordinator:</strong> Ananya Roy</p>
+    </div>
+
+    <div class="event-card">
+      <h3>Art Competition</h3>
+      <p>Create an artwork based on the festival theme.</p>
+      <p><strong>Coordinator:</strong> Meera Nair</p>
+    </div>
+  </div>
+
+  <div class="section" id="schedule">
+    <h2>Event Schedule</h2>
+
+    <table class="schedule">
+      <tr>
+        <th>Time</th>
+        <th>Event</th>
+        <th>Venue</th>
+      </tr>
+      <tr>
+        <td>9:00 AM</td>
+        <td>Opening Ceremony</td>
+        <td>Main Stage</td>
+      </tr>
+      <tr>
+        <td>10:30 AM</td>
+        <td>Coding Challenge</td>
+        <td>Computer Lab</td>
+      </tr>
+      <tr>
+        <td>1:00 PM</td>
+        <td>Robotics Workshop</td>
+        <td>Science Block</td>
+      </tr>
+      <tr>
+        <td>3:00 PM</td>
+        <td>Dance Competition</td>
+        <td>Main Stage</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section" id="rules">
+    <h2>Festival Rules</h2>
+
+    <ul class="rules">
+      <li>Bring your college identity card.</li>
+      <li>Register before the event begins.</li>
+      <li>Follow the instructions given by event coordinators.</li>
+      <li>Keep the campus clean and respect all participants.</li>
+      <li>Be at your event venue at least 15 minutes early.</li>
+    </ul>
+  </div>
+
+  <div class="section" id="register">
+    <h2>Register for the Fest</h2>
+
+    <form>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name">
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email">
+
+      <label for="event">Choose an Event:</label>
+      <select id="event" name="event">
+        <option>Coding Challenge</option>
+        <option>Project Expo</option>
+        <option>Dance Competition</option>
+        <option>Singing Competition</option>
+        <option>Robotics Workshop</option>
+      </select>
+
+      <button type="submit">Register</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>INNOVISTA 2026 | ABC College</p>
+    <p>Contact: fest@abccollege.edu | 98765 43210</p>
+  </footer>
+
+</body>
+</html>
